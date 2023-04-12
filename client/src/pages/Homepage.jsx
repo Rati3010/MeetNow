@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from './HomePage/header'
+import Description from './HomePage/Description'
 
 const Homepage = () => {
   return (
-    <div>Homepage</div>
+    <div>
+      <Header/>
+      <Description/>
+    </div>
   )
 }
 

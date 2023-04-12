@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 const Navbar = () => {
   return (
@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="nav">
         <input type="checkbox" id="nav-check" />
         <div className="nav-header">
-          <div className="nav-title">MeetNow</div>
+          <Link to={"/"} className="nav-title">MeetNow</Link>
         </div>
         <div className="nav-btn">
           <label for="nav-check">
