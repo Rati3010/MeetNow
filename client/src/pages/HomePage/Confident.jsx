@@ -1,11 +1,15 @@
 import React from 'react';
+import workFromHome from '../../assets/work-from-home-1.jpg';
+import meetingSoftware from '../../assets/meetings-software-1.jpg';
+import chatMobile from '../../assets/chat-mobile.gif';
+import chatImage from '../../assets/zoom-chat-1.jpg';
 
 const Confident = () => {
   return (
     <>
       <div>
         <div>
-          <img src="" alt="" />
+          <img src={workFromHome} alt="" />
         </div>
         <div>
           <h1>Confidently work from home</h1>
@@ -43,13 +47,13 @@ const Confident = () => {
           </ul>
         </div>
         <div>
-          <img src="" alt="" />
+          <img src={meetingSoftware} alt="" />
         </div>
       </div>
 
       <div>
         <div>
-          <img src="" alt="" />
+          <img src={chatMobile} alt="" />
         </div>
         <div>
           <h1>A thoughtful approach to mobile meetings</h1>
@@ -60,9 +64,14 @@ const Confident = () => {
             desktop client and more.
           </h5>
           <ul>
-            <li>Focus on your virtual meeting – click record to leave the note taking to MeetNow’s
-auto-generated, searchable transcripts</li>
-            <li>Turn on Virtual Backgrounds and select the image of your choice (iPhone 8+ required)</li>
+            <li>
+              Focus on your virtual meeting – click record to leave the note
+              taking to MeetNow’s auto-generated, searchable transcripts
+            </li>
+            <li>
+              Turn on Virtual Backgrounds and select the image of your choice
+              (iPhone 8+ required)
+            </li>
             <li>Use Safe Driving Mode or Apple Carplay (iPhone only)</li>
           </ul>
         </div>
@@ -72,28 +81,24 @@ auto-generated, searchable transcripts</li>
         <div>
           <h1>Communicate instantly on Zoom Team Chat</h1>
           <h5>
-          Integrated persistent instant messaging streamlines workspace collaboration for team members across the desktop and mobile clients.
+            Integrated persistent instant messaging streamlines workspace
+            collaboration for team members across the desktop and mobile
+            clients.
           </h5>
           <ul>
-            <li>
-            Instantly start a virtual meeting or phone call
-            </li>
-            <li>
-            Share files and search content in public or private groups
-            </li>
-            <li>
-            Connect external users while keeping information safe
-            </li>
+            <li>Instantly start a virtual meeting or phone call</li>
+            <li>Share files and search content in public or private groups</li>
+            <li>Connect external users while keeping information safe</li>
           </ul>
         </div>
         <div>
-          <img src="" alt="" />
+          <img src={chatImage} alt="" />
         </div>
       </div>
-     <div>
+      <div>
         <h2>Ready to get started</h2>
         <button>Sign up</button>
-     </div>
+      </div>
     </>
   );
 };
