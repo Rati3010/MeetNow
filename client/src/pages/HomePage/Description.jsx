@@ -65,7 +65,7 @@ const Description = () => {
               <p>
                 MeetNow Meetings syncs with your calendar system and delivers
                 streamlined enterprise-grade video conferencing from desktop,
-                mobile and dedicated Zoom for Home Devices
+                mobile and dedicated MeetNow for Home Devices
               </p>
             </div>
           </div>
@@ -85,12 +85,12 @@ const Description = () => {
         </div>
       </div>
 
-      <div>
+      <div id='description-built'>
         <h1>Built for modern teams</h1>
-        <div>
+        <div id='description-built-box-collection'>
           <div>
             <img src={meetingImage} alt="" />
-            <h2>HD audio and video meetings</h2>
+            <h3>HD audio and video meetings</h3>
             <p>
               Bring HD video and audio to your virtual meetings with support for
               up to 1000 video participants and 49 videos on screen.
@@ -98,7 +98,7 @@ const Description = () => {
           </div>
           <div>
             <img src={meetingImage} alt="" />
-            <h2>Streamlined calendaring</h2>
+            <h3>Streamlined calendaring</h3>
             <p>
               Easily start or schedule meetings directly from Outlook, Gmail, or
               iCalendar.
@@ -106,7 +106,7 @@ const Description = () => {
           </div>
           <div>
             <img src={meetingImage} alt="" />
-            <h2>Built-in collaboration tools</h2>
+            <h3>Built-in collaboration tools</h3>
             <p>
               Multiple video call participants can share their screens
               simultaneously and co-annotate for a more interactive virtual
@@ -115,7 +115,7 @@ const Description = () => {
           </div>
           <div>
             <img src={meetingImage} alt="" />
-            <h2>Made for Connecting</h2>
+            <h3>Made for Connecting</h3>
             <p>
               Filters, reactions, polls, hand raising, and music or video
               sharing make virtual meetings more fun and engaging.
@@ -123,7 +123,7 @@ const Description = () => {
           </div>
           <div>
             <img src={meetingImage} alt="" />
-            <h2>Meeting recording and transcripts</h2>
+            <h3>Meeting recording and transcripts</h3>
             <p>
               Record your virtual meetings locally or to the cloud, with
               searchable transcripts.
@@ -131,7 +131,7 @@ const Description = () => {
           </div>
           <div>
             <img src={meetingImage} alt="" />
-            <h2>Team Chat</h2>
+            <h3>Team Chat</h3>
             <p>
               Chat with groups, searchable history, integrated file sharing, and
               10 year archive. Easily escalate into 1:1 or group video calls.
@@ -140,9 +140,9 @@ const Description = () => {
         </div>
       </div>
 
-      <div>
+      <div id='description-customers'>
         <h1>
-          Customers who switch to Zoom report an increase in performance, trust,
+          Customers who switch to MeetNow report an increase in performance, trust,
           and engagement
         </h1>
         <div>

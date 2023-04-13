@@ -1,0 +1,49 @@
+.confindet-box-collection {
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  gap: 40px;
+}
+.confindet-box-collection > div {
+  width: 50%;
+}
+.confindet-box-collection > div > img {
+  width: 100%;
+}
+ul.checklist li {
+  font-size: 16px;
+  margin-bottom: 1em;
+  list-style-type: none;
+  padding: 0.25em 0 0 2.5em;
+  position: relative;
+}
+.checklist li::before {
+  content: ' ';
+  display: block;
+  border: solid 0.8em rgb(0, 255, 179);
+  border-radius: 0.8em;
+  height: 0;
+  width: 0;
+  position: absolute;
+  left: 0.5em;
+  top: 40%;
+  margin-top: -0.5em;
+}
+.checklist li::after {
+  content: ' ';
+  display: block;
+  width: 0.3em;
+  height: 0.6em;
+  border: solid #fff;
+  border-width: 0 0.2em 0.2em 0;
+  position: absolute;
+  left: 1.2em;
+  top: 45%;
+  margin-top: -0.2em;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

@@ -64,3 +64,54 @@
 #description-below-box-collection>div>div>p{
     font-size: 22px;
 }
+#description-built{
+    padding: 60px;
+}
+#description-built>h1{
+    margin-bottom: 50px;
+}
+#description-built-box-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+#description-built-box-collection>div{
+    padding: 30px;
+    text-align: left;
+    background-color: rgb(245, 244, 242);
+    border-radius: 20px;
+}
+#description-built-box-collection>div:hover{
+    background-color: rgb(187, 228, 247);
+}
+#description-built-box-collection>div>img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid black ;
+}
+#description-built-box-collection>div>h3{
+    margin-bottom: 20px;
+}
+#description-built-box-collection>div>p{
+    font-size: 22px;
+}
+#description-customers{
+    padding: 60px;
+    text-align: left;
+}
+#description-customers>div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 20px;
+    gap: 40px;
+}
+#description-customers>div>div{
+  padding: 20px;
+  border-left: 7px solid black;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#description-customers>div>div>p{
+    font-size: 22px;
+}
