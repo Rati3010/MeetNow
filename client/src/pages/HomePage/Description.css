@@ -1,0 +1,66 @@
+#description-head{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+#description-head>div{
+    width: 50%;
+}
+#description-head-heading{
+    padding-left: 60px;
+    text-align: left;
+}
+#description-head-heading>h5{
+    font-weight: 500;
+}
+#description-head-heading>p{
+    font-size: 22px;
+}
+#description-head-heading>button{
+    padding: 10px 15px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+#description-head-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px 60px 0px 10px;
+    gap: 10px;
+    text-align: center;
+}
+#description-head-box>div{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#description-head-box>div>h5{
+    padding-top: 50px;
+    font-size: 22px;
+}
+#description-head-box>div:hover{
+   background-color: rgb(210, 223, 247);
+   cursor: pointer;
+}
+#description-below-head{
+    margin-top: 70px;
+    text-align: left;
+    padding: 20px 60px ;
+}
+#description-below-box-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+    gap: 60px;
+}
+#description-below-box-collection>div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#description-below-box-collection>div:hover{
+    background-color: rgb(217, 250, 250);
+}
+#description-below-box-collection>div>div>p{
+    font-size: 22px;
+}

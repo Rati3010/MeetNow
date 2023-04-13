@@ -3,18 +3,14 @@ import iconframe from '../../assets/icon-frame.svg';
 import iconframe1 from '../../assets/icon-frame-1.svg';
 import secure from '../../assets/secure-logo.svg';
 import meetingImage from '../../assets/meeting.jpg';
+import "./Description.css"
+
 const Description = () => {
   return (
     <>
-      <div
-        style={{
-          paddingTop: '70px',
-          display: 'flex',
-          justifyContent: 'space-between',
-        }}
-      >
-        <div style={{ width: '50%' }}>
-          <h2>Powering organizations across industries and geographies</h2>
+      <div id='description-head'>
+        <div id='description-head-heading' >
+          <h1>Powering organizations across industries and geographies</h1>
           <p>
             MeetNow helps consolidate communications, connect people, and
             collaborate better together in the boardroom, classroom, operating
@@ -22,13 +18,7 @@ const Description = () => {
           </p>
           <button>Explore Industry Solution</button>
         </div>
-        <div
-          style={{
-            width: '50%',
-            display: 'grid',
-            gridTemplateColumns: 'repeat(3,1fr )',
-          }}
-        >
+        <div id='description-head-box' >
           <div>
             <h5>Education</h5>
           </div>
@@ -50,9 +40,9 @@ const Description = () => {
         </div>
       </div>
 
-      <div>
-        <h1>Simplified video conferencing and messaging across any device</h1>
-        <div>
+      <div id='description-below-head' >
+        <h1>Simplified video conferencing and messaging <br /> across any device</h1>
+        <div id='description-below-box-collection' >
           <div>
             <div>
               <img src={iconframe1} alt="" />

@@ -13,7 +13,7 @@ const Header = () => {
   }, [changeText]);
   return (
     <div style={{ paddingTop: '50px',display:"flex",justifyContent:"space-between",height:"500px" }}>
-      <div style={{fontSize:"20px",width:"50%",paddingTop:"50px",paddingLeft:"10px",backgroundColor:"lightblue",textAlign:"left"}}>
+      <div style={{fontSize:"20px",width:"50%",paddingTop:"50px",paddingLeft:"60px",backgroundColor:"lightblue",textAlign:"left"}}>
         <h1>
           One Platform to <br/><span style={{ color: 'red' }}>{text}</span>
         </h1>
