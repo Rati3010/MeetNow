@@ -1,9 +1,10 @@
 import React from 'react';
+import "./Footer.css"
 
 const Footer = () => {
   return (
-    <div>
-      <div>
+    <div className='footer-main'>
+      <div className='footer-sub-one'>
         <div>
           <h5>About</h5>
           <p>Zoom Blog</p>
@@ -53,7 +54,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <h6>Copyright ©2023 All rights reserved || Talkies - Let's connect</h6>
+        <h6>Copyright ©2023 All rights reserved || MeetNow</h6>
       </div>
       <div>
         <div></div>

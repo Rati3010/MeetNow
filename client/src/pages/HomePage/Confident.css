@@ -47,3 +47,21 @@ ul.checklist li {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+#confident-signup{
+    background-color: aqua;
+    padding: 60px 0px;
+}
+#confident-signup>h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+#confident-signup>button{
+    padding: 10px 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 22px;
+}
+#confident-signup>button:hover{
+    background-color: rgb(0, 56, 37);
+    color: #fff;
+}

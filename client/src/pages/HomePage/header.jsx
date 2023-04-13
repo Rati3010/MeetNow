@@ -8,7 +8,7 @@ const Header = () => {
     setText(textArray[random]);
   }, []);
   useEffect(() => {
-    const intervalId = setInterval(changeText, 1000);
+    const intervalId = setInterval(changeText, 3000);
     return () => clearInterval(intervalId);
   }, [changeText]);
   return (

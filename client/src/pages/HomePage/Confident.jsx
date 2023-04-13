@@ -96,9 +96,9 @@ const Confident = () => {
           <img src={chatImage} alt="" />
         </div>
       </div>
-      <div>
+      <div id='confident-signup'>
         <h2>Ready to get started</h2>
-        <button>Sign up</button>
+        <button>Sign up, it's free</button>
       </div>
     </>
   );

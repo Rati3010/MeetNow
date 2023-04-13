@@ -1,0 +1,13 @@
+.footer-main{
+    background-color: rgb(6, 66, 66);
+    margin-top: 30px;
+    color: white;
+    padding: 60px;
+}
+.footer-sub-one{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.footer-sub-one>div>p{
+    cursor: pointer;
+}
