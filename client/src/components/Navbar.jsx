@@ -18,11 +18,11 @@ const Navbar = () => {
         </div>
 
         <div className="nav-links">
-            <a>Home</a>
-            <a>Products</a>
-            <a>Signup</a>
-            <a>Login</a>
-            <a>JsFiddle</a>
+            <Link to={"/"}>Home</Link>
+            <Link>Products</Link>
+            <Link to={"/signup"}>Signup</Link>
+            <Link to={"/login"}>Login</Link>
+            <Link>JsFiddle</Link>
         </div>
       </div>
     </>

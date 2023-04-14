@@ -1,0 +1,49 @@
+.signup-background {
+  background-image: url('../assets/signup.jpg');
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.login-background {
+  background-image: url('../assets/login-image.jpg');
+}
+.signup-form {
+  width: 30%;
+  margin: auto;
+  position: relative;
+  top: 100px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  opacity: 1;
+}
+.signup-form > div {
+  display: flex;
+  justify-content: space-between;
+}
+.signup-form > div > p {
+  cursor: pointer;
+}
+.signup-form input {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 10px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.signup-form button {
+  font-size: 22px;
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 0px;
+}
+.signup-form>button:hover{
+    background-color: cadetblue;
+    color: white;
+}
+.signup-form p {
+  cursor: pointer;
+}
